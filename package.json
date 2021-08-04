@@ -4,6 +4,10 @@
   "description": "[![Build Status](https://travis-ci.com/JoraengPong-Site-Project/official-store.svg?token=SVSVBRsDJvzJrFif5ad4&branch=main)](https://travis-ci.com/JoraengPong-Site-Project/official-store)\r #조랭퐁 공식 스토어",
   "main": "test.js",
   "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\"",
     "test": "echo test.js && exit 0"
   },
   "repository": {
