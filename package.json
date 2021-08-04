@@ -1,0 +1,20 @@
+{
+  "name": "official-store",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.com/JoraengPong-Site-Project/official-store.svg?token=SVSVBRsDJvzJrFif5ad4&branch=main)](https://travis-ci.com/JoraengPong-Site-Project/official-store)\r #조랭퐁 공식 스토어",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo test.js && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoraengPong-Site-Project/official-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoraengPong-Site-Project/official-store/issues"
+  },
+  "homepage": "https://github.com/JoraengPong-Site-Project/official-store#readme"
+}
